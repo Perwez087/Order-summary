@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Red+Hat+Display&display=swap');
+    body{
+        background-image: url(images/pattern-background-desktop.svg);
+        width: 98%;
+        height: 30vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: 'Red Hat Display';
+    }
+    .first{
+        border: 1px solid rgb(202, 197, 197);
+        width: 25%;
+        height: 80vh;
+        border-radius: 15px;
+        margin-top: 40px;
+        background-color: white;
+        border-top: none;
+    }
+    .second img{
+       width: 100%;
+       border-bottom-right-radius: 0px;
+       border-top-left-radius: 15px;
+       border-top-right-radius: 15px;
+    }
+    .order{
+        font-size: 25px;
+        font-family: 'Red Hat Display';
+        color: rgb(12, 12, 84);
+    }
+    p{
+        font-size: 14px;
+        color: rgb(126, 121, 121);
+        margin-top: -15px;
+    }
+    .third{
+        /* border: 2px solid rgb(97, 97, 99); */
+        width: 80%;
+        height: 10vh;
+        border-radius: 9px;
+        margin-top: 30px;
+        background-color: rgb(245, 243, 240);
+    }
+    .img{
+        width: 13%;
+       float: left;
+       margin-left: 20px;
+       margin-top: 14px;
+    }
+    .text{
+        font-size: 13px;
+        float: left;
+        margin-left: 20px;
+        margin-top: 16px;
+    }
+    .an{
+        font-size: small;
+        float: right;
+        margin-top: 22px;
+        margin-right: 22px;
+    }
+    .para p{
+        font-size: small;
+        float: left;
+        margin-top: 40px;
+        margin-left: -69px;
+    }
+    .btn{
+        border-radius: 7px;
+        width: 80%;
+        height: 6vh;
+        margin-top: 25px;
+        background-color: blue;
+        color: white;
+        font-family: 'Red Hat Display';
+        font-weight: bold;
+        border: none;
+        box-shadow: 2px 12px #eaeae5;
+        cursor: pointer;
+    }
+    footer{
+        font-size: 13px;
+        margin-top: 22px;
+        font-weight: bold;
+        color: #717170;
+        cursor: pointer;
+    }
+    @media (max-width: 858px){
+     .first{
+         height: 80vh !important;
+         width: 86% !important;
+     }
+    }
+</style>
+<body>
+    <center> <div class="first">
+     <div class="second">
+     <img src="illustration-hero.svg" alt="">
+     </div>
+     <h4 class="order">Order Summary</h4>
+     <p>You can now listen to millions of songs, <br> audiobooks, and podcasts on any device <br> anywhere you like!</p>
+     <div class="third">
+      <div>
+        <img class="img" src="icon-music.svg" alt="">
+      </div>
+      <h4 class="text">Annual Plan</h4>
+      <div class="para">
+      <p>$59.99/year</p>
+    </div>
+      <a class="an" href="#">Change</a>
+     </div>
+     <button class="btn">Proceed to Payment</button>
+     <footer>Cancel Order</footer>
+    </div></center>
+</body>
+</html>
